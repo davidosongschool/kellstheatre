@@ -5,6 +5,12 @@
     padding: 0;
     border: 0;
     margin: 0;
+    
+}
+
+.container,
+.container-fluid {
+    padding: 0;
 }
 
 /*------------------------- Nav Bar Styling*/
@@ -22,19 +28,22 @@ background-color: #2C003E !important;
 
 /*------------------------- Hero Section Styling*/
 .hero-main-style {
-    min-height: 600px;
+    height: 600px;
     background-color: #fff;
+    position: relative;
 }
 
 .hero-image-style {
-      min-height: 600px;
-       background-color: #fff;
-       
+      height: 600px;
+    background-color: #fff;
+       position: relative;
 }
 
+
 #dancer-style {
-    height: 83%;
-    width: 80%;
+    height: 60%;
+    width: 60%;
+    position: absolute;
 }
 
 .line-text-container {
@@ -72,6 +81,7 @@ line-height: 15px;
 }
 
 .ticket-button {
+    position: relative;
     background-color: #FFC106;
     border: none;
     font-family: 'Roboto', sans-serif;
@@ -83,9 +93,13 @@ line-height: 15px;
 }
 
 
-
-
 /*------------------------- About Section Styling*/
+
+.about-section {
+    max-height: 300px;
+    background-color:#FFF;
+
+}
 
 /*------------------------- Photo Section Styling*/
 
