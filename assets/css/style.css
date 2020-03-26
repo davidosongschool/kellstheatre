@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Montserrat:100,200,300,400,500,600,700,800|Tangerine:100,200,300,400,500,600,700,800');
+
+
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+/*------------------------- Nav Bar Styling*/
+
+.bg-dark {
+background-color: #2C003E !important;
+}
+
+.logo-color {
+ color: #FFC106;
+ font-size: 30px;
+}
+
+
+
+/*------------------------- Hero Section Styling*/
+.hero-main-style {
+    min-height: 600px;
+    background-color: #fff;
+}
+
+.hero-image-style {
+      min-height: 600px;
+       background-color: #fff;
+       
+}
+
+#dancer-style {
+    height: 83%;
+    width: 80%;
+}
+
+.line-text-container {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+   font-family: 'Tangerine', cursive;
+   
+}
+
+#line1 {
+   font-size: 7vw; 
+   font-weight: 500;
+   
+}
+
+#line2 {
+padding-left: 15px;
+font-size: 7vw;
+font-weight: 500;
+line-height: 15px;
+}
+
+#line3{
+    padding-left: 30px;
+    font-size: 7vw;
+    font-weight: 500;
+
+}
+
+
+.button-style {
+    height: 30px;
+    background-color:#FFC106;
+}
+
+.ticket-button {
+    background-color: #FFC106;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #2C003E;
+    min-width: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+
+
+
+/*------------------------- About Section Styling*/
+
+/*------------------------- Photo Section Styling*/
+
+/*------------------------- Contact Section Styling*/
+
+/*------------------------- Footer Section Styling*/
