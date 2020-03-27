@@ -139,7 +139,7 @@ line-height: 15px;
 
 
 .theatre-image-style-y {
-     min-height: 90%;
+    min-height: 90%;
     max-width: 90%;
     border: #FFC106 2px solid;
 }
@@ -148,20 +148,34 @@ line-height: 15px;
     font-weight: 300;
     font-size: 22px;
     position: relative;
-    top: 3%;
+    top: 20%;
 }
 
 .about-text-style-2{
     font-size: 24px;
     font-weight: 400;
     position: relative;
-    top: 15%;
+    top: 25%;
+}
+
+.change-color-text {
+    color: #2C003E;
+}
+
+.icon-style-list {
+    color: #2C003E;
+    font-size: 24px;
+    padding: 5px;
+}
+
+#contact{
+    padding-bottom: 2%;
 }
 
 .list-style{
     list-style: none;
     position: relative;
-    top: 15%;
+    top: 28%;
      font-size: 22px;
      font-weight: 300;
   
@@ -189,7 +203,7 @@ line-height: 15px;
 .picture-slides-style
 {
     max-height: 500px !important;
-    
+   
 }
 
 .style-camera-icon {
@@ -205,6 +219,7 @@ line-height: 15px;
 .bg-photo-section {
       background-color:  rgb(44, 0, 62, 1); 
       max-height: 590px;
+      padding-top: 40px;
 }
 
 .border-yellow{
@@ -220,10 +235,57 @@ line-height: 15px;
 
 
 
-/*-------------------- Media Query styles*/
+/*---------------------------------------------------------------------------- Media Query styles*/
 
 
 @media (max-width: 1199.98px) {
+
+/* About text */
+
+.about-text-style {
+    font-weight: 300;
+    font-size: 22px;
+    position: relative;
+    top: 20%;
+}
+
+.about-text-style-2{
+    font-size: 24px;
+    font-weight: 400;
+    position: relative;
+    top: 15%;
+}
+
+.change-color-text {
+    color: #2C003E;
+}
+
+.icon-style-list {
+    color: #2C003E;
+    font-size: 24px;
+    padding: 5px;
+}
+
+#contact{
+    padding-bottom: 2%;
+}
+
+.list-style{
+    list-style: none;
+    position: relative;
+    top: 22%;
+     font-size: 22px;
+     font-weight: 300;
+  
+}
+
+
+
+
+
+
+
+
 
 }
 
@@ -240,7 +302,7 @@ line-height: 15px;
     /* Hero */
 
 .hero-main-style{
-    max-height: 50vh !important;
+    max-height: 40vh !important;
     background-color: #fff;
 }
 
@@ -279,7 +341,8 @@ line-height: 15px;
     background-color:#FFF;
     margin-top: 0;
     margin-bottom: 0;
-   
+    padding-left: 10px;
+    padding-right: 10px;
 
 }
 .theatre-image-style {
@@ -300,7 +363,10 @@ line-height: 15px;
 .about-text-style {
     font-weight: 300;
     font-size: 22px;
-     
+    position: unset;
+      text-align: center;
+      padding-left: 10px;
+      padding-right: 10px;
        
 }
 
@@ -308,6 +374,8 @@ line-height: 15px;
     font-size: 24px;
     font-weight: 400;
         position: unset;
+          text-align: center;
+
    
 }
 
@@ -316,8 +384,21 @@ line-height: 15px;
      font-size: 22px;
      font-weight: 300;
      position: unset;
+       text-align: center;
+       padding-left: 10px;
+      padding-right: 10px;
   
 }
+
+.icon-style-list {
+    color: #2C003E;
+    font-size: 24px;
+    padding: 5px;
+    display: block;
+    text-align: center;
+}
+
+
 
 
 /* Contact*/
@@ -375,6 +456,7 @@ line-height: 15px;
       background-color:  rgb(44, 0, 62, 1); 
       max-height: 250px !important;
       min-height: 250px !important;
+       padding-top: 0;
 }
 
 .border-yellow{
