@@ -35,20 +35,19 @@
 	<section>
 		<nav class="navbar navbar-dark bg-dark navbar-expand-md navbar-fixed-top navbar-trans top-background">
 			<a class="navbar-brand" href="#">
+                
 				<i class="fas fa-theater-masks d-inline-block align-top logo-color"></i>
+                Kells Theatre
 			</a>
 			<!--Menu button for mobile-->
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-<span class="navbar-toggler-icon"></span>
-</button>
+		
 			<!--Nav Items-->
-			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item active">
-						<a class="nav-link" href="#">Contact Us<span class="sr-only">(current)</span></a>
+						<button type="button" class="btn btn-warning"><a class="nav-link contact-text" href="#contact">Contact Us<span class="sr-only">(current)</span></a></button>
 					</li>
 				</ul>
-			</div>
+			
 		</nav>
 	</section>
 
@@ -56,7 +55,7 @@
 	<section>
 		<div class="container-fluid">
 			<div class="row no-gutters">
-				<div class="col-sm-7 hero-main-style">
+				<div class="col-md-7 hero-main-style">
 					<!--Main Text-->
 					<div class="line-text-container">
 						<div class="row no-gutters">
@@ -79,7 +78,29 @@
 
 						<div class="row">
 							<div class="col-12">
-								<button type="button" class="btn btn-primary btn-lg ticket-button">Get Tickets</button>
+								<button type="button" class="btn btn-primary btn-lg ticket-button" data-toggle="modal" data-target="#exampleModal">Get Tickets</button>
+
+								<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+									aria-labelledby="exampleModalLabel" aria-hidden="true">
+									<div class="modal-dialog" role="document">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title style-model-title" id="exampleModalLabel">Ticket Information</h5>
+												<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                                 </button>
+											</div>
+											<div class="modal-body style-model-message">
+												Unfortunately we have no tickets for sale just yet! Come back soon!
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-secondary style-model-message" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
 							</div>
 
 						</div>
@@ -89,7 +110,7 @@
 
 
 				<!--Dancer Image-->
-				<div class="col-sm-5 hero-image-style d-none d-lg-block">
+				<div class="col-sm-5 hero-image-style d-none d-md-block">
 					<img id="dancer-style" src="assets/images/dancernew.png" alt="dancer">
             </div>
 
@@ -103,13 +124,13 @@
 				<div class="col-sm-4 about-section">
 					<img src="assets/images/theatre.jpg" alt="theatre" class="theatre-image-style">
                 </div>
-					<div class="col-sm-8 about-section">
+					<div class="col-sm-8">
 
 						<h3 class="about-text-style">Kells Theatre is a state of the art theatre located in the heart
 							of Kells Town Centre. We host a variety of pantomimes, plays, and musicals from the long
 							tenured Kells Musical and Dramatic Society 1976; as well as many travelling production
 							companies and local drama groups. </h3>
-						<h4 class="about-text-style-2">Specifications</h4>
+						<h4 class="about-text-style-2" id="contact">Specifications</h4>
 
 						<ul class="list-style">
 							<li>
@@ -134,22 +155,22 @@
 	<section>
 		<div class="container contact-container">
 			<div class="row no-gutters">
+				<div class="col-md-4">
+					<img src="assets/images/phone-box2.png" alt="theatre" class="d-none d-md-block theatre-image-style">
+                    <img src="assets/images/phone-box-m.png" alt="theatre" class="d-md-none contact-image-style">
 
-				<div class="col-sm-8">
-					<h3>Contact Section</h3>
-					<!--Contact Form-->
-					<form action="" method="">
-						Name: <input type="text" name=".." class="input-style"/>
-                    Email: <input type="email" name=".." class="input-style"/>
-                    Phone: <input type="text" name=".." class="input-style"/>
-                    Message: <textarea name=".." class="input-style" row="3" columns="40"></textarea>
-					</form>
 				</div>
-				<div class="col-sm-4">
-					<img src="assets/images/yellow-bg.png" alt="theatre" class="theatre-image-style">
+					<div class="col-md-4">
+						<img src="assets/images/address-box.png" alt="theatre" class="d-none d-md-block theatre-image-style-y">
+                    <img src="assets/images/address-box.png" alt="theatre" class="d-md-none contact-image-style-y">
+
+				</div>
+						<div class="col-md-4">
+							<img src="assets/images/email-box2.png" alt="theatre" class="d-none d-md-block theatre-image-style">
+                            <img src="assets/images/email-box-m.png" alt="theatre" class="d-md-none contact-image-style">
 
             </div>
-				</div>
+						</div>
 			</div>
 	</section>
 
@@ -160,13 +181,13 @@
 	<section>
 		<div class="container-fluid">
 			<div class="row no-gutters">
-				<div class="col-12 bg-photo-section">
-					<i class="fas fa-camera-retro style-camera-icon"></i>
+				<div class="col-sm-12 bg-photo-section">
+					<!-- <i class="fas fa-camera-retro style-camera-icon"></i> -->
 					<div class="container">
 						<div class="row no-gutters">
-							<div class="col-12 border-yellow">
+							<div class="col-sm-12">
 								<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-									<div class="carousel-inner picture-slides-style">
+									<div class="carousel-inner picture-slides-style border-yellow">
 										<div class="carousel-item active">
 											<img src="assets/images/pic1.jpg" class="d-block w-100" alt="...">
     </div>
@@ -197,8 +218,6 @@
 
 					</div>
 	</section>
-
-
 
 
 </body>
