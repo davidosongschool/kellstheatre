@@ -28,28 +28,30 @@ background-color: #2C003E !important;
 
 /*------------------------- Hero Section Styling*/
 .hero-main-style {
-    height: 600px;
-    background-color: #fff;
+    height: 500px;
+    background-color: rgba(44, 0, 62, 0.1); 
     position: relative;
 }
 
 .hero-image-style {
-      height: 600px;
-    background-color: #fff;
+      height: 500px;
+    background-color:  rgb(44, 0, 62, 0.1); 
        position: relative;
+       
 }
 
 
 #dancer-style {
-    height: 60%;
-    width: 60%;
+    height: 80%;
+    width: 90%;
     position: absolute;
+    margin-top: 5%;
 }
 
 .line-text-container {
     position: absolute;
     top: 10%;
-    left: 5%;
+    left: 15%;
    font-family: 'Tangerine', cursive;
    
 }
@@ -96,13 +98,83 @@ line-height: 15px;
 /*------------------------- About Section Styling*/
 
 .about-section {
-    max-height: 300px;
+    height: 300px;
     background-color:#FFF;
+    margin-top: 120px;
+    margin-bottom: 120px;
 
 }
+.theatre-image-style {
+    width: 90%;
+    height: 90%;
+    border: #2C003E 2px solid;
+}
 
-/*------------------------- Photo Section Styling*/
+
+
+.about-text-style {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.about-text-style-2{
+    font-size: 22px;
+     font-weight: 400;
+}
+
+.list-style{
+    list-style: none;
+}
+
 
 /*------------------------- Contact Section Styling*/
+
+
+.contact-container {
+    margin-bottom: 50px;
+     height: 300px;
+}
+
+.contact-us-block {
+    background-color: #2C003E;
+    min-height: 90%;
+    max-width: 90%;
+}
+
+.input-style {
+    border: #2C003E solid 2px;
+}
+
+
+
+
+/*------------------------- Photo Section Styling*/
+.picture-slides-style
+{
+    max-height: 500px !important;
+}
+
+.style-camera-icon {
+    position: relative;
+    color: #FFC106;
+    left: 75px;
+    top: 40px;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+.bg-photo-section {
+      background-color:  rgb(44, 0, 62, 1); 
+      max-height: 590px;
+}
+
+.border-yellow{
+    border: #FFC106 solid 5px;
+    border-radius: 5px;
+    margin-bottom: 35px;
+    
+}
+
 
 /*------------------------- Footer Section Styling*/
