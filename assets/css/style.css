@@ -45,6 +45,9 @@ background-color: #2C003E !important;
     height: 475px;
     background-color: rgba(44, 0, 62, 0.1); 
     position: relative;
+     white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .hero-image-style {
@@ -108,6 +111,11 @@ line-height: 15px;
     margin-top: 5%;
 }
 
+.modal-body {
+    min-height: 200px;
+    display: block !important;
+    overflow-x: initial;
+}
 
 .style-model-title {
         font-family: 'Roboto', sans-serif;
@@ -129,6 +137,9 @@ line-height: 15px;
     background-color:#FFF;
     margin-top: 80px;
     margin-bottom: 120px;
+ white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
 
 }
 .theatre-image-style {
@@ -190,8 +201,7 @@ line-height: 15px;
 .contact-container {
      margin-bottom: 25px;
      height: 400px;
-
-    
+  
 }
 
 .contact-us-block {
@@ -287,13 +297,16 @@ line-height: 15px;
 }
 
 @media  (max-width: 991px) {
+
+
+  
 .hero-main-style {
-    height: 300px;
+    height: 350px !important;
 }
 
 
 .hero-image-style {
-    height: 300px;
+    height: 350px;
     background-color:  rgb(44, 0, 62, 0.1); 
     position: relative;
        
@@ -304,6 +317,7 @@ line-height: 15px;
     font-size: 22px;
     position: relative;
     top: 17%;
+
 }
 
 .about-text-style-2{
@@ -311,6 +325,7 @@ line-height: 15px;
     font-weight: 400;
     position: relative;
     top: 18%;
+    
 }
 
 .change-color-text {
@@ -361,16 +376,17 @@ line-height: 15px;
     background-color: #FFC106 !important;
     border-color: #2C003E !important;
     height: 40px !important;
-    margin-bottom: 40px;
+    margin: 0;
 }
 
 
     /* Hero */
 
 .hero-main-style{
-    max-height: 45vh !important;
+    max-height: 300px !important;
     background-color: #fff;
 }
+
 
 .line-text-container {
     position: absolute;
@@ -539,5 +555,36 @@ line-height: 15px;
 
 }
 
+/* Horizontal Turn of phone */
+
+@media screen and (max-width: 995px) and (max-height: 500px) {
+  .hero-main-style{
+    min-height: 450px !important;
+    background-color: #fff;
+}
+
+.theatre-image-style {
+    min-height: 90%;
+    max-width: 90%;
+    border: #2C003E 2px solid;
+    margin-left: 0;
+}
 
 
+.theatre-image-style-y {
+    min-height: 90%;
+    max-width: 90%;
+    border: #FFC106 2px solid;
+      margin-left: 0;
+}
+
+.contact-container {
+    
+     height: auto;
+     min-width: 100%;
+  margin-bottom: 0;
+}
+
+
+
+}
